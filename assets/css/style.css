@@ -6,7 +6,7 @@
 
 /* Heading dan Navbar */
 div.container {
-  background-color: cadetblue;
+  background-color: #7eaa92;
   padding: 30px;
 }
 
@@ -38,11 +38,11 @@ a.nav-link.active:hover {
 div.content,
 nav.navbar.bg-success.text-white {
   max-width: 40%;
-  margin-left: 8%;
+  margin-left: 6%;
 }
 
 h5,
-p {
+p.teks {
   text-align: center;
 }
 
@@ -50,13 +50,13 @@ div.content-1 {
   padding: 20px;
   margin-top: 15px;
   border-radius: 4px;
-  background-color: darkgray;
+  background-color: #c8e4b2;
 }
 
 div.content-2 {
   padding: 20px;
   margin-top: 15px;
-  background-color: bisque;
+  background-color: #ffd9b7;
 }
 
 h2 {
@@ -72,7 +72,7 @@ h5 {
 div.sidebar-item {
   position: absolute;
   top: 82px;
-  right: 18%;
+  right: 19%;
   max-width: 30%;
   margin-top: 60px;
 }
