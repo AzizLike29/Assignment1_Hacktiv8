@@ -1,10 +1,10 @@
 <h2>Tampilan Home</h2>
 
-![Home](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/9aa12ea3-edd1-4490-9d39-437f742926ad)
+![Home](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/25f68f0e-619d-4961-94da-cf3ccd763c99)
 
 <h2>Tampilan About</h2>
 
-![About](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/359c16c0-f6a2-4e6b-b27d-c29610170340)
+![About](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/8ae79a4c-295d-469e-be99-e572401867bb)
 
 <h2>Tampilan Portfolio</h2>
 
