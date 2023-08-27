@@ -8,6 +8,6 @@
 
 <h2>Tampilan Portfolio</h2>
 
-![Portfolio web](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/b9170388-8177-4efb-a01f-3e934a7ed21c)
+![Profile](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/0fd0896b-d4c4-411d-8a81-90d403111317)
 
 <p>Terima Kasih</p>
