@@ -12,6 +12,10 @@ span.navbar-brand {
   font-weight: bold;
 }
 
+button.navbar-toggler.ms-auto.collapsed {
+  margin-right: 20px;
+}
+
 /* Content */
 div.jumbotron.text-center {
   padding: 50px;

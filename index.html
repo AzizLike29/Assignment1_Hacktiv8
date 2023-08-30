@@ -22,24 +22,43 @@
         </div>
       </nav>
 
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler ms-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Profile</a>
+          <li>
+            <a href="portfolio.html" class="nav-link px-2 link-secondary"
+              >Profile</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+          <li>
+            <a href="about.html" class="nav-link px-2 link-secondary">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://wa.me/62895618748150">Contact</a>
+          <li>
+            <a
+              href="https://wa.me/62895618748150"
+              class="nav-link px-2 link-secondary"
+              >Contact</a
+            >
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link dropdown-toggle px-2 link-secondary"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
@@ -56,8 +75,12 @@
           </li>
         </ul>
       </div>
-      <button type="button" class="btn btn-light">Login</button>
-      <button type="button" class="btn btn-primary">Daftar</button>
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">
+          Login
+        </button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
     </nav>
     <!-- content -->
     <div class="jumbotron text-center">
