@@ -44,10 +44,10 @@ div.footer p {
 }
 
 /* Responsive web design */
-@media (min-width: 210px) and (max-width: 371px) {
+@media (min-width: 210px) and (max-width: 400px) {
   div.col-md-3.text-end {
     padding: 5px;
-    margin-left: 3%;
+    margin-left: 2%;
   }
   a.dropdown-item:hover {
     background-color: #333;
