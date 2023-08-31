@@ -42,3 +42,11 @@ div.footer {
 div.footer p {
   margin-top: 20px;
 }
+
+/* Responsive web design */
+@media (min-width: 276px) and (max-width: 371px) {
+  div.col-md-3.text-end {
+    padding: 5px;
+    margin-left: 25%;
+  }
+}

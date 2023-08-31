@@ -187,7 +187,7 @@ button.submit:hover {
   display: block;
   width: 28px;
   height: 3px;
-  background-color: #dde6ed;
+  background-color: #333;
   border-radius: 3px;
   transition: all 0.5s;
 }
@@ -261,9 +261,16 @@ button.submit:hover {
     justify-content: center;
   }
 
+  li a:hover {
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+
   a {
     font-size: 9px;
     color: #fff;
+    font-weight: normal;
   }
 
   li {
