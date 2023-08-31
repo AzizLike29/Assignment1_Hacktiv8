@@ -47,9 +47,17 @@ div.footer p {
 @media (min-width: 210px) and (max-width: 400px) {
   div.col-md-3.text-end {
     padding: 5px;
+    margin-left: 3.5%;
+  }
+
+  a.nav-link.px-2.link-secondary,
+  a.nav-link.dropdown-toggle.px-2.link-secondary {
     margin-left: 2%;
   }
   a.dropdown-item:hover {
     background-color: #333;
+  }
+  button.navbar-toggler.ms-auto {
+    margin-right: 10px;
   }
 }
