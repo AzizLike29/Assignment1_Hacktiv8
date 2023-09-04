@@ -60,7 +60,6 @@ div.footer p {
 @media (min-width: 210px) and (max-width: 400px) {
   div.col-md-3.text-end {
     padding: 5px;
-    margin-left: 3.5%;
   }
 
   a.nav-link.px-2.link-secondary,
