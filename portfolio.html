@@ -37,8 +37,8 @@
       <img src="assets/img/Aziz.jpg" alt="profile" />
 
       <div class="kiri">
-        <h3>Abdul Aziz Firdaus</h3>
-        <p>Web Developer Program</p>
+        <h3 id="profilName"></h3>
+        <p id="profileRole"></p>
         <a class="primary-link" href="https://wa.me/62895618748150">Kontak</a>
         <a
           class="secondary-link"
@@ -48,70 +48,76 @@
       </div>
 
       <div class="kanan">
-        <span>Availability : <span>Full time</span></span
-        ><br /><br />
-        <span>Usia : <span>20 Tahun</span></span
-        ><br /><br />
-        <span>Pengalaman : <span>1 Tahun</span></span
-        ><br /><br />
-        <span>Email : <span>abdulfirdaus590@gmail.com</span></span
-        ><br /><br />
+        <div id="hasil">
+          <span id="availability">Availability : </span><br /><br />
+          <span id="age">Age : </span><br /><br />
+          <span id="location">Location : </span><br /><br />
+          <span id="experience">Experience : </span><br /><br />
+          <span id="email">Email : </span><br /><br />
+        </div>
       </div>
     </section>
     <!-- Akhir section -->
 
     <!-- Bagian form -->
     <div class="form">
-      <label for="name">Nama</label><br />
+      <label for="name">Name</label><br />
       <input
         type="text"
         name="name"
-        placeholder="Masukkan nama anda"
+        id="inputName"
+        placeholder="Input your name"
       /><br /><br />
 
       <label for="role">Role</label><br />
       <input
         type="text"
         name="role"
-        placeholder="Masukkan role anda"
+        id="inputRole"
+        placeholder="Input your role"
       /><br /><br />
 
       <label for="availability">Availability</label><br />
       <input
         type="text"
         name="availability"
-        placeholder="Masukkan kinerja anda"
+        id="inputAvailability"
+        placeholder="Input your performance"
       /><br /><br />
 
       <label for="age">Age</label><br />
       <input
         type="number"
         name="age"
-        placeholder="Tuliskan umur anda"
+        id="inputAge"
+        placeholder="Please write your age"
       /><br /><br />
 
-      <label for="lokasi">Lokasi</label><br />
+      <label for="location">Location</label><br />
       <input
         type="text"
-        name="lokasi"
-        placeholder="Masukkan alamat rumah anda"
+        name="location"
+        id="inputLocation"
+        placeholder="Input your home address"
       /><br /><br />
 
-      <label for="years">Years Experience</label><br />
+      <label for="experience">Years Experience</label><br />
       <input
-        type="text"
-        name="years"
-        placeholder="Berapa tahun pengalaman anda"
+        type="number"
+        name="experience"
+        id="inputExperience"
+        placeholder="How many years of experience"
       /><br /><br />
 
       <label for="email">Email</label><br />
       <input
         type="email"
         name="email"
-        placeholder="Tuliskan email aktif anda"
+        id="inputEmail"
+        placeholder="Please write down your active email"
       /><br /><br />
 
-      <button type="submit" class="submit">Submit</button>
+      <button type="submit" class="submit" id="submitButton">Submit</button>
     </div>
     <!-- Akhir form -->
     <script src="assets/js/script.js"></script>
