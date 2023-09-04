@@ -24,8 +24,21 @@ div.jumbotron.text-center {
   margin-bottom: 0;
 }
 
-button.btn.btn-light,
-button.btn.btn-primary {
+img.rounded {
+  margin: 20px 0;
+}
+
+img.rounded:hover {
+  transform: translate(10px, 10px);
+  transition: transform 0.3s ease;
+}
+
+img.rounded:active {
+  transform: translate(20px, 20px);
+}
+
+button.btn.btn-light.me-2,
+button.btn.btn-secondary {
   margin: 10px;
 }
 
@@ -54,9 +67,11 @@ div.footer p {
   a.nav-link.dropdown-toggle.px-2.link-secondary {
     margin-left: 2%;
   }
+
   a.dropdown-item:hover {
     background-color: #333;
   }
+
   button.navbar-toggler.ms-auto {
     margin-right: 20px;
   }

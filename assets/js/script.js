@@ -29,4 +29,16 @@ document.getElementById("submitButton").addEventListener("click", function () {
     "experience"
   ).textContent = `Experience: ${experience} Tahun`;
   document.getElementById("email").textContent = `Email: ${email}`;
+
+  // nilai input string jadi kosong
+  document.getElementById("inputName").value = "";
+  document.getElementById("inputRole").value = "";
+  document.getElementById("inputAvailability").value = "";
+  document.getElementById("inputAge").value = "";
+  document.getElementById("inputLocation").value = "";
+  document.getElementById("inputExperience").value = "";
+  document.getElementById("inputEmail").value = "";
+
+  // Menampilkan notif
+  alert("Data kamu berhasil disimpan!");
 });
