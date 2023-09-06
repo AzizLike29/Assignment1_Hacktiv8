@@ -80,21 +80,21 @@ img:hover {
   animation-iteration-count: 1;
 }
 
-div.kiri {
+div.profil {
   flex: 1;
   order: 1;
   text-align: left;
   padding: 10px;
 }
 
-div.kanan {
+div.detail {
   flex: 2;
   order: 2;
   text-align: left;
   padding: 10px;
 }
 
-.kiri p,
+.profil p,
 h3 {
   margin-bottom: 10px;
 }
@@ -288,8 +288,8 @@ button.submit:hover {
     margin-bottom: 10px;
   }
 
-  div.kiri,
-  div.kanan {
+  div.profil,
+  div.detail {
     text-align: center;
     padding: 10px 0;
   }

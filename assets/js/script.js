@@ -18,29 +18,43 @@ document.getElementById("submitButton").addEventListener("click", function () {
   const experience = document.getElementById("inputExperience").value;
   const email = document.getElementById("inputEmail").value;
 
-  // Ganti nilai dalam elemen-elemen profil dengan nilai dari form
-  // Fungsi dari textContent mengambil teks dari html seperti h3, p, span
-  document.getElementById("profilName").textContent = name;
-  document.getElementById("profileRole").textContent = role;
-  document.getElementById(
-    "availability"
-  ).textContent = `Availability: ${availability}`;
-  document.getElementById("age").textContent = `Age: ${age}`;
-  document.getElementById("location").textContent = `Location: ${location}`;
-  document.getElementById(
-    "experience"
-  ).textContent = `Experience: ${experience} Tahun`;
-  document.getElementById("email").textContent = `Email: ${email}`;
+  // Memberikan validasi ketika user klik button, belum masukin datanya akan muncul notif pesan
+  // === membandingkan tipe datanya
+  if (
+    name === "" ||
+    role === "" ||
+    availability === "" ||
+    age === "" ||
+    location === "" ||
+    experience === "" ||
+    email === ""
+  ) {
+    alert("Maaf isi terlebih dahulu data kamu!");
+  } else {
+    // Ganti nilai dalam elemen-elemen profil dengan nilai dari form
+    // Fungsi dari textContent mengambil teks dari html seperti h3, p, span
+    document.getElementById("profilName").textContent = name;
+    document.getElementById("profilRole").textContent = role;
+    document.getElementById(
+      "availability"
+    ).textContent = `Availability: ${availability}`;
+    document.getElementById("age").textContent = `Age: ${age}`;
+    document.getElementById("location").textContent = `Location: ${location}`;
+    document.getElementById(
+      "experience"
+    ).textContent = `Experience: ${experience} Tahun`;
+    document.getElementById("email").textContent = `Email: ${email}`;
 
-  // Mengembalikan nilai input string jadi kosong ketika sudah klik button
-  document.getElementById("inputName").value = "";
-  document.getElementById("inputRole").value = "";
-  document.getElementById("inputAvailability").value = "";
-  document.getElementById("inputAge").value = "";
-  document.getElementById("inputLocation").value = "";
-  document.getElementById("inputExperience").value = "";
-  document.getElementById("inputEmail").value = "";
+    // Mengembalikan nilai input string jadi kosong ketika sudah klik button
+    document.getElementById("inputName").value = "";
+    document.getElementById("inputRole").value = "";
+    document.getElementById("inputAvailability").value = "";
+    document.getElementById("inputAge").value = "";
+    document.getElementById("inputLocation").value = "";
+    document.getElementById("inputExperience").value = "";
+    document.getElementById("inputEmail").value = "";
 
-  // Menampilkan notif ketika button sudah diklik
-  alert("Data kamu berhasil disimpan!");
+    // Menampilkan notif ketika button sudah diklik
+    alert("Data kamu berhasil disimpan!");
+  }
 });
