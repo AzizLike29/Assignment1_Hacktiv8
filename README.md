@@ -1,13 +1,13 @@
 <h2>Tampilan Home</h2>
 
-![Home](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/25f68f0e-619d-4961-94da-cf3ccd763c99)
+![Awal](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/b1113b93-e6c7-4624-b382-288c91193a5e)
 
 <h2>Tampilan About</h2>
 
-![About](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/8ae79a4c-295d-469e-be99-e572401867bb)
+![About](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/6c29685e-224c-42a0-be93-4d93c404e807)
 
 <h2>Tampilan Portfolio</h2>
 
-![Profile](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/0fd0896b-d4c4-411d-8a81-90d403111317)
+![Portfolio](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/7f7a04d2-9d5a-40db-9c31-58b3a620e33f)
 
 <p>Terima Kasih</p>
