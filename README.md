@@ -1,3 +1,10 @@
+```bash
+Nama          : Abdul Aziz Firdaus
+Kelas         : WDP-KS13
+Kode Peserta  : WDP-KS13-022
+Pengajar      : Melanaumi Apriza
+```
+
 <h2>Tampilan Home</h2>
 
 ![Awal](https://github.com/AzizLike29/Assignment1_Hacktiv8/assets/119909214/b1113b93-e6c7-4624-b382-288c91193a5e)
